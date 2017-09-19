@@ -1,3 +1,1 @@
-const log = message => console.info(message); // eslint-disable-line
-
-export default log;
+export sum from './sum';
