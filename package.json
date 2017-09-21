@@ -13,7 +13,8 @@
     "commit": "git-cz",
     "lint:fix": "eslint ./src --fix",
     "lint": "eslint ./src",
-    "test": "jest"
+    "test": "jest --no-cache",
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -31,6 +32,20 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "jest": {
+    "verbose": true,
+    "transformIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 70,
+        "functions": 70,
+        "lines": 70,
+        "statements": 70
+      }
     }
   }
 }
