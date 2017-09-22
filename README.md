@@ -2,7 +2,7 @@
 
 Npm package boilerplate is a simple scafold to create npm modules.
 
-It's a easy way to publish npm modules with es6, eslint, and test ready.
+It's a easy way to publish npm modules with the latest javascript features, eslint, and test ready.
 
 ## Usage
 
