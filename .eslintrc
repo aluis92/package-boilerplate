@@ -6,11 +6,7 @@
     "globals": {
         "test": true,
         "expect": true,
-        "fetch": true,
-        "__DEV__": true,
-        "__PROD__": true,
-        "__SERVER__": true,
-        "__CLIENT__": true
+        "fetch": true
     },
     "rules": {
         "indent": [1, 4, { "SwitchCase": 1 }]
